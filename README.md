@@ -5,7 +5,7 @@ https://pecl.php.net/package/mdbtools
 
 My attempts to contact the original author (Hartmut Holzgraefe) got no reply, so I'm uploading here to avoid losing the code. All kudos to him, all I did was add a bunch of #ifdef.
 
-To compile just use phpize and make as any other pecl extension. You will need the php7 development files and also the mdbtools development files. After compiling "make install" and ensure you turn on the extension in your php.ini file. From there it is as simple as it can be on structured code:
+To compile just use phpize, ./configure and make as any other pecl extension. You will need the php7 development files and also the mdbtools development files. After compiling "make install" and ensure you turn on the extension in your php.ini file. From there it is as simple as it can be on structured code:
 
 <pre>
 $link = mdb_open('database.mdb');
