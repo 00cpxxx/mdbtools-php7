@@ -1,6 +1,6 @@
 # mdbtools-php7
 
-If you like me still requires to open and export ancient old MDB databases in 2017 fear no nore, I have (poorly) ported the code to PHP7 development environment and it worked in tests with all databases I required so far. The original package can be found at: 
+If you as me still requires to open and export ancient old MDB databases in 2017 fear no nore, I have (poorly) ported the code to PHP7 development environment and it worked in tests with all databases I required so far. The original package can be found at: 
 https://pecl.php.net/package/mdbtools
 
 My attempts to contact the original author (Hartmut Holzgraefe) got no reply, so I'm uploading here to avoid losing the code. All kudos to him, all I did was add a bunch of #ifdef.
