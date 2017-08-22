@@ -16,6 +16,7 @@ foreach($tables as $table_name)
 
   while(($record = mdb_fetch_assoc($handle)));
     var_dump($record);
+
   mdb_table_close($handle);
 }
 mdb_close($link);
