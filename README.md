@@ -16,7 +16,7 @@ foreach($tables as $table_name)
   echo 'TABLE = ', $table_name, PHP_EOL;
   echo 'ROWS = ', mdb_num_rows($handle), PHP_EOL;
 
-  while(($record = mdb_fetch_assoc($handle)));
+  while(($record = mdb_fetch_assoc($handle)))
     var_dump($record);
 
   mdb_table_close($handle);
